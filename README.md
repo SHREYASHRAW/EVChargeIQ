@@ -79,47 +79,45 @@ Wang, Q., Liu, S., Su, Z. et al.
 *A city-scale dataset of public electric vehicle charging transactions and infrastructure.*  
 *Scientific Data*, 2026.
 
-Dataset DOI:
-
-`10.6084/m9.figshare.31952289`
+Dataset DOI: `10.6084/m9.figshare.31952289`
 
 ---
 
-# 🔍 Key Business Questions
+## 🔍 Key Business Questions
 
-## 1. Charging Demand
+### 1. Charging Demand
 
 - When does charging demand peak?
 - How does charging activity vary throughout the day?
 - How does charging activity differ between January and July?
 
-## 2. Station Performance
+### 2. Station Performance
 
 - Which stations handle the highest charging activity?
 - Which stations generate the highest revenue?
 - Which stations have the highest transactions per charging gun?
 - Which stations have the highest transactions per MW?
 
-## 3. Infrastructure Utilization
+### 3. Infrastructure Utilization
 
 - How efficiently are charging guns and station power capacity being utilized?
 - Which stations show strong demand relative to available capacity?
 - Which stations may represent capacity-expansion opportunities?
 
-## 4. Charging Economics
+### 4. Charging Economics
 
 - Which stations generate the highest revenue?
 - How does revenue vary across location and construction-site types?
 - How does charging activity relate to revenue?
 
-## 5. Location Analysis
+### 5. Location Analysis
 
 - Which construction-site types generate the highest revenue?
 - Which location types have the highest transactions per station?
 - Which location types generate the highest average revenue per station?
 - How does energy consumption vary across construction-site types?
 
-## 6. Station Growth
+### 6. Station Growth
 
 - Which stations show the strongest transaction growth?
 - Which stations show declining transaction activity?
@@ -128,7 +126,7 @@ Dataset DOI:
 
 ---
 
-# 🏗️ Analytical Workflow
+## 🏗️ Analytical Workflow
 
 ```text
 Raw EV Charging Data
@@ -150,6 +148,8 @@ Power BI Dashboard
 Dashboard QA
         ↓
 Business Insights & Recommendations
+```
+
 ---
 
 # 📈 Completed Analysis
@@ -405,6 +405,7 @@ The EVChargeIQ Power BI dashboard provides an interactive view of charging netwo
 ![EVChargeIQ Station Performance](dashboard/station_performance.png)
 
 ---
+
 # 🎨 Dashboard Design
 
 The Power BI dashboard uses a consistent EV-focused dark theme.
@@ -454,7 +455,11 @@ The Power BI dashboard uses a consistent EV-focused dark theme.
 EVChargeIQ-1/
 │
 ├── dashboard/
-│   └── EVChargeIQ_Dashboard.pbix
+│   ├── EVChargeIQ_Dashboard.pbix
+│   ├── executive_overview.png
+│   ├── station_growth.png
+│   ├── location_analysis.png
+│   └── station_performance.png
 │
 ├── data/
 │   └── README.md
@@ -473,6 +478,8 @@ EVChargeIQ-1/
 ├── README.md
 └── .gitignore
 ```
+
+---
 
 # 💼 Business Applications
 
@@ -563,6 +570,7 @@ Dataset DOI:
 - [x] Dashboard QA
 - [x] Power BI dashboard added to repository
 - [x] Analytical notebooks added to repository
+- [x] Dashboard preview images added to repository
 
 ## Future Work
 
