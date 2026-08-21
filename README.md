@@ -384,6 +384,27 @@ Provides detailed station-level operational analysis.
 
 ---
 
+# 🖼️ Dashboard Preview
+
+The EVChargeIQ Power BI dashboard provides an interactive view of charging network performance across demand, station growth, location performance, and station-level operations.
+
+## Executive Overview
+
+![EVChargeIQ Executive Overview](dashboard/executive_overview.png)
+
+## Station Growth
+
+![EVChargeIQ Station Growth](dashboard/station_growth.png)
+
+## Location Analysis
+
+![EVChargeIQ Location Analysis](dashboard/location_analysis.png)
+
+## Station Performance
+
+![EVChargeIQ Station Performance](dashboard/station_performance.png)
+
+---
 # 🎨 Dashboard Design
 
 The Power BI dashboard uses a consistent EV-focused dark theme.
